@@ -1,127 +1,113 @@
-# 🏦 Bank Analytics 
+# 🏦 Bank Analytics
 
 ## 📌 Project Overview
 
-**Bank Analytics** is an end-to-end data analytics project focused on analyzing banking transaction and loan data to understand customer behavior, financial performance, transaction trends, and key business KPIs.
+Bank Analytics is an end-to-end data analytics project focused on analyzing banking data to identify customer behavior, transaction trends, financial performance, and key business KPIs.
 
-The project involves **data cleaning, preprocessing, validation, exploratory analysis, SQL analysis, and interactive dashboard development** to transform raw banking data into actionable business insights.
-
----
-
-## 🎯 Business Objective
-
-The main objective of this project is to help banking stakeholders monitor financial performance and identify important trends through data-driven analysis.
-
-Key objectives include:
-
-* Analyze customer and account activity
-* Monitor credit and debit transactions
-* Track loan performance and collections
-* Analyze branch-wise and state-wise performance
-* Identify transaction and financial trends
-* Monitor important banking KPIs
-* Build an interactive dashboard for business reporting
+The project covers the complete analytics workflow, from **data cleaning and preprocessing to SQL analysis, dashboard development, and business insights** using Excel, MySQL, Tableau, and Power BI.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool                | Purpose                                            |
-| ------------------- | -------------------------------------------------- |
-| **MySQL**           | Data storage, querying & analysis                  |
-| **SQL**             | Data extraction, transformation & KPI calculations |
-| **Microsoft Excel** | Data cleaning, preprocessing & validation          |
-| **Power BI**        | Interactive dashboard & visualization              |
-| **DAX**             | Measures, calculated columns & KPIs                |
-| **Power Query**     | Data transformation & preparation                  |
+| Tool                | Purpose                                                                     |
+| ------------------- | --------------------------------------------------------------------------- |
+| **Microsoft Excel** | Data cleaning, preprocessing, validation, and exploratory analysis          |
+| **MySQL**           | SQL querying, data analysis, aggregation, joins, and KPI calculations       |
+| **Power BI**        | Interactive dashboards, data modeling, DAX measures, and KPI visualization  |
+| **Tableau**         | Data visualization, interactive dashboards, filters, and business reporting |
 
 ---
-
-## 📊 Key KPIs
-
-The dashboard tracks important banking and financial metrics such as:
-
-* 💰 Total Loan Amount Funded
-* 🏦 Total Loans
-* 💵 Total Collection
-* 📈 Total Interest
-* 💳 Total Credit Transactions
-* 💸 Total Debit Transactions
-* 📊 Net Cash Flow
-* 👥 Customer Activity
-* 🏢 Branch-wise Performance
-* 🌎 State-wise Loan Distribution
-
----
-
-## 📈 Dashboard Analysis
-
-### 1. Transaction Analysis
-
-Analyzed credit and debit transactions to understand:
-
-* Transaction volume
-* Transaction amount
-* Monthly transaction trends
-* Customer transaction behavior
-* Net cash flow
-
-### 2. Loan Analysis
-
-Analyzed loan data to monitor:
-
-* Total loan amount
-* Number of loans
-* Loan distribution
-* Loan collection
-* Interest generated
-* Loan performance trends
-
-### 3. Branch Performance
-
-Compared branches based on:
-
-* Loan amount
-* Collection
-* Interest
-* Transaction activity
-* Customer activity
-
-### 4. Geographic Analysis
-
-Analyzed loan and customer distribution across different states to identify regional patterns and business concentration.
-
----
-
 
 ## 🔄 Project Workflow
 
 ```text
 Raw Banking Data
        ↓
-Data Cleaning
+Data Cleaning & Preprocessing
        ↓
-Data Validation
+Excel Data Analysis
+       ↓
+MySQL / SQL Analysis
        ↓
 Data Transformation
        ↓
-SQL / MySQL Analysis
-       ↓
-Exploratory Data Analysis
-       ↓
-DAX Measures & KPIs
+KPI & Business Analysis
        ↓
 Power BI Dashboard
+       ↓
+Tableau Dashboard
        ↓
 Business Insights
 ```
 
 ---
 
-## 🧮 SQL & Data Analysis
+## 📊 Key Analysis Areas
 
-SQL was used to perform:
+### 💳 Transaction Analysis
 
+* Credit and debit transaction analysis
+* Transaction volume and value
+* Monthly transaction trends
+* Customer transaction behavior
+* Net cash flow analysis
+
+### 🏦 Loan Analysis
+
+* Total loan amount funded
+* Number of loans
+* Loan collection
+* Interest generated
+* Loan performance analysis
+
+### 🏢 Branch Analysis
+
+* Branch-wise loan performance
+* Branch-wise collection
+* Branch-wise interest
+* Customer and transaction activity
+
+### 🌎 Geographic Analysis
+
+* State-wise loan distribution
+* Regional customer activity
+* Geographic performance comparison
+
+---
+
+## 📈 Dashboard Development
+
+### Power BI
+
+Created an interactive Power BI dashboard using:
+
+* DAX measures
+* KPI cards
+* Slicers and filters
+* Interactive charts
+* Data modeling
+* Power Query
+* Dynamic visualizations
+
+### Tableau
+
+Created analytical dashboards using:
+
+* Interactive visualizations
+* Filters
+* KPI views
+* Charts and tables
+* Business performance analysis
+* Customer and transaction insights
+
+---
+
+## 🧮 MySQL Analysis
+
+MySQL was used to perform:
+
+* Data extraction
 * Data filtering
 * Aggregations
 * GROUP BY analysis
@@ -129,40 +115,54 @@ SQL was used to perform:
 * Subqueries
 * Window functions
 * Customer analysis
-* Branch-level analysis
-* Transaction trend analysis
+* Branch analysis
+* Transaction analysis
 * KPI calculations
 
 ---
 
-## 📌 Key Business Insights
+## 📊 Excel Analysis
 
-The analysis helps identify:
+Excel was used for:
 
-* Customer transaction patterns
-* High-performing branches
-* Loan distribution across regions
-* Credit and debit transaction trends
-* Monthly financial trends
-* Collection and interest performance
-* Customer activity patterns
-* Changes in net cash flow
+* Data cleaning
+* Data preprocessing
+* Data validation
+* Exploratory analysis
+* Pivot tables
+* Calculations
+* Initial KPI analysis
+
+---
+
+## 🎯 Key KPIs
+
+* Total Loan Amount Funded
+* Total Loans
+* Total Collection
+* Total Interest
+* Total Credit Transactions
+* Total Debit Transactions
+* Net Cash Flow
+* Customer Activity
+* Branch Performance
+* State-wise Loan Distribution
 
 ---
 
 ## 💡 Skills Demonstrated
 
 **Data Analytics:**
-Data Cleaning • Data Transformation • EDA • KPI Analysis • Business Analysis
+Data Cleaning • Data Preprocessing • EDA • KPI Analysis • Business Analysis
 
 **SQL:**
-MySQL • Joins • Aggregations • Subqueries • Window Functions • Data Analysis
+MySQL • Joins • Aggregations • Subqueries • Window Functions
 
-**Power BI:**
-Dashboard Development • DAX • Data Modeling • Power Query • Interactive Visualizations
+**Visualization:**
+Power BI • Tableau • DAX • Interactive Dashboards • Data Visualization
 
 **Excel:**
-Data Cleaning • Data Validation • Pivot Tables • Data Analysis
+Data Cleaning • Pivot Tables • Data Validation • Data Analysis
 
 ---
 
@@ -174,9 +174,9 @@ Data Cleaning • Data Validation • Pivot Tables • Data Analysis
 
 📍 Hyderabad, India
 
-🔗 LinkedIn: [Omkar Pinapaka](https://www.linkedin.com/in/omkarpinapaka/)
+🔗 LinkedIn: https://www.linkedin.com/in/omkarpinapaka/
 
-💻 GitHub: [omkarpinapaka](https://github.com/omkarpinapaka)
+💻 GitHub: https://github.com/omkarpinapaka
 
 ---
 
